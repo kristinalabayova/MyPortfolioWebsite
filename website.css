@@ -1,0 +1,418 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Roboto:wght@300&display=swap');
+
+html,
+body,
+#intro
+ { 
+   height:100%; 
+   background:rgb(53, 52, 52);
+}
+
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  color:rgb(209, 208, 208);
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4158d0;
+     text-transform: uppercase;
+   text-shadow: 1px 1px #c850c0; 
+   font-family: 'Libre Caslon Text', serif;
+  }   
+
+/* Dividers */
+.divider {
+    background:linear-gradient(-135deg, #c850c0, #4158d0);
+    padding: 3px 0;
+  }
+
+/* WHOLE NAVBAR COLOR  */
+.navbar.navbar-expand-lg.navbar-light {
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    text-transform: uppercase;
+}
+
+/* links in navbar */
+.navbar.navbar-expand-lg.navbar-light ul li a{
+    color: rgb(160, 159, 159);
+    font-size: 1.2rem;
+}
+
+/* navbar brand */
+.navbar-brand.d-inline-block {
+    text-transform: uppercase;
+    color: rgb(160, 159, 159);
+}
+
+/* 1 PAGE */
+
+#intro {
+    background: url("images/mywebsite/black2.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+    opacity: 0.5;
+    padding-bottom:70px;
+}
+
+#intro p {
+  color:rgb(129, 129, 129);
+  text-transform: uppercase;
+  text-shadow: 1px 1px #4158d0;
+}
+
+
+.fa-facebook, .fa-instagram, .fa-twitter,  .fa-google, .fa-linkedin, .fa-github {
+    color: #4158d0;
+    padding:8px;
+    }
+
+
+
+    
+    #hero-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      text-align: center;
+      z-index: 20;
+      color: white;
+      transform: scale(1.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    #hero-text > div {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 50px;
+      font-weight: 500;
+      font-size: 3rem;
+      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    }
+
+/* 2 PAGE */
+
+#about {
+ padding: 30px 0 90px;
+}
+
+.icofont-rounded-right, strong {
+  color:#a139e6;
+}
+
+.subtitle {
+  font-size:1.6rem;
+}
+
+/* ABOUT ME LIST - bullet removal */
+.col-xl-12 ul li{
+  list-style-type:none;
+}
+
+/* MY PHOTO */
+.img-fluid {
+  background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 #a139e6b7;
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+}
+
+.divider {
+  background:linear-gradient(-135deg, #c850c0, #4158d0);
+  margin:20px;
+}
+
+
+/* 3 PAGE SKILLS */
+
+.progress-bar {
+background: #322fdbd8;
+}
+
+
+.container.skills p{
+  padding-bottom:10px;
+}
+
+#skills {
+  padding: 80px 30px;
+}
+
+/* h2 in skills */
+h2.font-weight-bold {
+  padding-bottom:40px;
+}
+
+
+
+
+/* 4 PAGE SERVICES  */
+
+#services {
+  padding: 80px 30px 110px 30px;
+}
+
+.services .icon-box {
+  padding: 80px 30px;
+  transition: all ease-in-out 0.3s;
+  background:linear-gradient(-135deg,  #4158d0, #c850c0);
+  box-shadow: 0px 5px 90px 0px #9e3bdf49;
+  border-radius: 18px;
+  border-bottom: 5px solid #fff;
+}
+
+.services .icon-box .icon {
+  width: 64px;
+  height: 64px;
+  background:rgba(255, 255, 255, 0.212);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box .icon i {
+  font-size: 28px;
+}
+
+.services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services .icon-box h4 a {
+  color: #f8f8f8b7;
+  transition: ease-in-out 0.3s;
+  text-shadow: none;
+}
+
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  color: rgb(201, 201, 201);
+}
+
+.services .icon-box:hover {
+  transform: translateY(-10px);
+  border-color: #322fdbd8;
+  
+}
+
+.services .icon-box:hover h4 a {
+  color: #322fdbd8;
+text-decoration: none;
+text-shadow: none;
+}
+
+.services .icon-box p {
+  font-size: 1rem;
+}
+
+
+
+
+
+
+/* 5 PAGE PROJECTS */
+
+#projects {
+  padding: 80px 30px 100px;
+  
+}
+/* project title  */
+.project-title.mb-3 {
+  padding-bottom:25px;
+}
+
+
+.card.col-sm-12.col-md-6.mx-2 ul li {
+  background:rgba(163, 152, 152, 0);
+box-shadow: 0 8px 32px 0 rgba(30, 41, 194, 0.486);
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card.col-sm-12.col-md-6.mx-2 {
+  background: rgba(255, 255, 255, 0.808);
+  box-shadow: 0 8px 32px 0 rgba(38, 84, 211, 0.37);
+  backdrop-filter: blur( 11.0px );
+  -webkit-backdrop-filter: blur( 11.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  
+}
+
+.card-title {
+  font-size: 1.1rem;
+}
+/* title inside  project card */
+#projects h5 {
+  text-shadow: none;
+}
+
+.gap {
+  margin:10px 0;
+}
+
+/* text color inside the project card */
+.card-body, .list-group-item, .card-text  {
+  color: rgb(136, 136, 136);
+}
+.card-body p  {
+  color: rgb(136, 136, 136);
+}
+
+/* project card */
+
+
+/* Button visit website in projects */
+.btn.btn-primary.visitwebsite {
+  background: #4158d0;
+  border:none;
+  border-radius: 10px;
+}
+
+.btn.btn-primary.visitwebsite:hover {
+  transition: 0.6s;
+  background:  #c850c0;
+}
+
+/* 6 PAGE CONTACT FORM */
+
+#contact {
+  padding:80px  30px;
+}
+
+.contact h2 {
+  padding: 20px  0;
+}
+
+.contact h4 {
+  text-shadow: none;
+  font-size: 1.1rem;
+}
+
+.php-email-form textarea {
+  padding: 10px 12px;
+}
+
+/* BUTTON IN CONTACT FORM */
+.btn.btn-primary.btn-lg {
+  background:linear-gradient(-135deg,  #4158d0, #c850c0);
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+
+.btn.btn-primary.btn-lg:hover {
+  background:linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+/* SOCIAL LINK ICONS in Contact form */
+.fab.fa-github.fa-lg.s, 
+.fab.fa-facebook.fa-lg.s, 
+.fab.fa-instagram.fa-lg.s,   
+.fab.fa-linkedin.fa-lg.s {
+  color:rgb(209, 208, 208);
+}
+
+
+
+/* BACK TO TOP BUTTON */
+.nav-link.backtotop {
+color:#aeadffbe;
+font-size: 1.2rem;
+}
+/* bullet removal from unordered list */
+li.nav-item {
+  list-style-type: none;
+}
+
+li.nav-item a {
+  color: #c850c0;
+  font-size: 1.1rem;
+  padding-bottom:15px;
+}
+
+footer {
+  padding-bottom:5px;
+  font-size: 0.9rem;
+}
+/*footer text color */
+.copyright.justify-content-center.d-flex {
+color: rgb(148, 147, 147);
+}
+/* MEDIA JQUERY */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+
+
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media  (max-width: 767.98px) {
+ 
+.img-fluid {
+  max-width:450px;
+  margin:30px 0;
+}
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)and (max-width:991px) { 
+
+.img-fluid {
+  margin:20px 0;
+}
+
+.webdesignp {
+ padding-top:25px;
+}
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199px) { 
+ 
+ .img-fluid {
+    margin:20px 0;
+  }
+ }
+
+ 
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+  h1, h2, h3,   h6 {
+    text-align: center;
+  }
+  .contact h4 {
+    text-align: left;
+  }
+ }
