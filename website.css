@@ -19,11 +19,29 @@ body
 
 
 h1, h2, h3, h4, h5, h6 {
-    color: 	#b700b7;
-    text-shadow: 1px 1px 	#e9d949;
-     text-transform: uppercase;
+    
+     text-transform: uppercase; 
+
+     background: -webkit-linear-gradient(	#e9d949, 	#df41df);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
   }   
 
+
+ .nav-link.backtotop, .nav-link.bottom {
+  text-transform: uppercase; 
+  background: -webkit-linear-gradient(	#e9d949, 	#df41df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+  #services h4 {
+    background: -webkit-linear-gradient(	#7a7a7a, 	#494949);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  
 /* Dividers */
 .divider {
   background: linear-gradient(90deg, 	#e9d949 0%,  	#b700b7 100%);
@@ -386,7 +404,7 @@ li.nav-item a {
 
 footer {
   font-size: 0.9rem;
-  padding:5px;
+  padding: 5px 0 15px;
   text-align: center;
 }
 /*footer text color */
