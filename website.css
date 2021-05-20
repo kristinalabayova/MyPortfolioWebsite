@@ -136,6 +136,8 @@ clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 #skills h2 {
   padding-top: 20px;
+  
+
 }
 
 /* h2 in skills */
@@ -383,7 +385,6 @@ li.nav-item a {
 
 
 footer {
-  
   font-size: 0.9rem;
   padding:5px;
   text-align: center;
@@ -392,6 +393,8 @@ footer {
 .copyright.justify-content-center.d-flex {
 color: rgb(148, 147, 147);
 }
+
+
 
 
 /* MEDIA QUERY */
@@ -490,5 +493,10 @@ color: rgb(148, 147, 147);
     text-align: center;
     margin:40px;
     padding-top:190px;
+    }
+
+    .img-fluid  {
+      max-width:450px;
+      margin-left:50px;
     }
  }
