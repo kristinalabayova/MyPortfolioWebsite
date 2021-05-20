@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-text-fill-color: transparent;
   }
 
-  #services h4 {
+  #services h4, #projects h6 {
     background: -webkit-linear-gradient(	#7a7a7a, 	#494949);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
